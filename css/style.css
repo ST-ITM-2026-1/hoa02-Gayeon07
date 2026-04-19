@@ -49,6 +49,16 @@ body {
   border-radius: 10px;
 }
 
+.theme-btn {
+  background: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1200px;
   padding: 40px 80px;
@@ -441,4 +451,65 @@ footer {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+body.dark-theme .navbar,
+body.dark-theme .card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+body.dark-theme .logo-text,
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3 {
+  color: #f8fafc;
+}
+body.dark-theme .menu a {
+  color: #cbd5e1;
+}
+body.dark-theme .menu a:hover {
+  background: #334155;
+}
+body.dark-theme .menu a.active {
+  background: #f8fafc;
+  color: #0f172a;
+}
+body.dark-theme .article-content,
+body.dark-theme .card-content p,
+body.dark-theme .textarea p,
+body.dark-theme .info-text p,
+body.dark-theme .info-text strong {
+  color: #94a3b8;
+}
+body.dark-theme .card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+body.dark-theme .card:hover {
+  border-color: #64748b;
+}
+body.dark-theme .icon-box,
+body.dark-theme .tech-stack span {
+  background: #546884;
+  color: #f8fafc;
+}
+body.dark-theme .article-title {
+  border-color: #334155;
+}
+body.dark-theme .progress-bg {
+  background: #334155;
+}
+body.dark-theme .contact-form input,
+body.dark-theme .contact-form textarea {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+body.dark-theme .contact-form button {
+  background: #2563eb;
 }
