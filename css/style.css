@@ -482,6 +482,56 @@ footer {
   }
 }
 
+/* GitHub Styles */
+#github-profile {
+  margin-bottom: 50px;
+}
+
+#github-repos{
+  margin-top: 20px;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  gap: 30px;
+}
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-info h2 {
+  margin-bottom: 10px;
+}
+.profile-bio {
+  margin-bottom: 15px;
+}
+.profile-meta {
+  font-size: 14px;
+}
+.repo-title {
+  margin-bottom: 12px;
+}
+.repo-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.repo-desc {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.repo-meta {
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: bold;
+}
+
 /* Dark Theme */
 body.dark-theme {
   background: #0f172a;
